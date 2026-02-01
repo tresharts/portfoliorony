@@ -93,9 +93,9 @@ ul, ol {
 	display: flex;
 	align-items: flex-end;
 	left: 100%;
-	animation: autoRun 12s linear infinite;
+	animation: autoRun 14s linear infinite;
 	transition: filter 0.5s;
-	animation-delay: calc( (12s / var(--quantity)) * (var(--position) - 1) - 12s);
+	animation-delay: calc( (14s / var(--quantity)) * (var(--position) - 1) - 14s);
 }
 
 .conteudo {
