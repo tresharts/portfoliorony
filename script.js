@@ -1,7 +1,7 @@
 function abrirModal(listaDeImagens){
     conteudoModal.innerHTML = "";
     listaDeImagens.forEach(link => {
-        conteudoModal.innerHTML += `<img src="${link}">`;
+        conteudoModal.innerHTML += `<img src="${link}" loading="lazy" decoding="async">`;
     });
     conteudoModal.scrollTop = 0;
     overlay.classList.add("active");
